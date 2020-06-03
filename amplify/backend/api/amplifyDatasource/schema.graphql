@@ -1,0 +1,7 @@
+type Asset @model {
+  id: ID!
+  symbol: String!
+  holdings: Float
+  price: Float
+  value: Float
+}

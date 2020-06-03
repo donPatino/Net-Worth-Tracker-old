@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-net-worth-tracker-dev-194320-authRole",
+            "UnauthRoleArn": "arn:aws:iam::460288031152:role/amplify-net-worth-tracker-dev-194320-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::460288031152:role/amplify-net-worth-tracker-dev-194320-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-net-worth-tracker-dev-194320-deployment",
+            "UnauthRoleName": "amplify-net-worth-tracker-dev-194320-unauthRole",
+            "StackName": "amplify-net-worth-tracker-dev-194320",
+            "StackId": "arn:aws:cloudformation:us-east-2:460288031152:stack/amplify-net-worth-tracker-dev-194320/862fb490-a5d2-11ea-98c6-02ae28e83a86",
+            "AmplifyAppId": "d28my6b6hivoc4"
+        },
+        "categories": {
+            "auth": {
+                "networthtrackerd2a069ee": {}
+            }
+        }
+    }
+}
