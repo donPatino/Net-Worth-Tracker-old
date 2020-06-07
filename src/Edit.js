@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 
 let Edit = () => (
-    <p>Hi</p>
+    <p>Edit</p>
 );
 
 export default Edit;

@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
 
-import Edit from './Edit.js';
+import Edit from './Edit';
+import Dashboard from './Dashboard';
 
 import {
   BrowserRouter as Router,
@@ -73,10 +74,10 @@ function App() {
     
     <Switch>
       <Route exact path="/dashboard">
-        <p>Dashboard</p>
+        <Dashboard assets={assets} />
       </Route>
       <Route exact path="/edit">
-        <Edit/>
+        <Edit />
       </Route>
       <Route path="/">
         <p>Index</p>
