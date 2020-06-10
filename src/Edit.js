@@ -19,10 +19,8 @@ let Edit = () => (
         <Formik
           initialValues={{ symbol: 'AMZN', holdings: 1 }}
           onSubmit={({symbol, holdings}, actions) => {
-            setTimeout(() => {
-                addAsset(symbol, holdings);
-                actions.setSubmitting(false);
-            }, 1000);
+            addAsset(symbol, holdings);
+            actions.setSubmitting(false);
           }}
         >
           {props => (
@@ -41,7 +39,7 @@ let Edit = () => (
 
                 <label htmlFor="holdings">How many shares are you holding? </label>
                 <input
-                    type="text"
+                    type="number"
                     onChange={props.handleChange}
                     onBlur={props.handleBlur}
                     value={props.values.holdings}

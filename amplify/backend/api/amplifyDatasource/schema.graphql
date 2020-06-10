@@ -1,7 +1,0 @@
-type Asset @model @auth(rules: [{ allow: owner }]) {
-  id: ID!
-  symbol: String!
-  holdings: Float
-  price: Float
-  value: Float
-}
